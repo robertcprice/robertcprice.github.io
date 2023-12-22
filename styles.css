@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  background-color: #000000;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -14,7 +15,9 @@ body {
 }
 
 model-viewer {
-  width: 500px;
-  height: 500px;
-  background-color: #ffffff;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
 }
